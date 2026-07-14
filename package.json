@@ -1,0 +1,26 @@
+{
+  "name": "exemplo-typescript-integracao-pdf-pkcs12",
+  "version": "1.0.0",
+  "description": "Exemplo de integração para o endpoint de assinatura PDF com certificado em arquivo (PFX) do SolidSign API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "form-data": "^4.0.0",
+    "jszip": "^3.10.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
